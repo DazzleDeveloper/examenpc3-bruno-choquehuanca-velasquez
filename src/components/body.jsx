@@ -1,4 +1,3 @@
-import "./App.css";
 import React from 'react'
 import imagemain from "../src/images/fondo.jpg";
 
@@ -9,21 +8,10 @@ import img5 from "../src/images/foto6.jpg";
 
 import img7 from "../src/images/fotofinal.jpg";
 import img8 from "../src/images/foto4.jpg";
-function App() {
+export  function cuerpobody() {
   return (
-   
-   <>
-    <header
-        style={{
-          justifyContent: "center",
-         
-          justifyItems: "center",
-        }}
-      >
-        <h1 style={{ textAlign: "center" }}>DUOMANIA 2025</h1>
-        <img src={imagemain} alt="Imagen-Portada" />
-      </header>
-      <body  style={{
+    <>
+     <body  style={{
           justifyContent: "center",
           
           justifyItems: "center",
@@ -64,13 +52,6 @@ function App() {
           </div>
          
         </div>
-      </body>
-      <footer>
-      <div style={{textAlign:'center'}}><h3>Derechos Reservados: Choquehuanca Velasquez Buro Cristofer</h3><h5>954 153 338</h5></div>
-      </footer>
-      </>
- 
-  );
+      </body></>
+  )
 }
-
-export default App;
